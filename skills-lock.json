@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "skills": {
+    "market-environment-analysis": {
+      "source": "tradermonty/claude-trading-skills",
+      "sourceType": "github",
+      "skillPath": "skills/market-environment-analysis/SKILL.md",
+      "computedHash": "308c1a45f8c3290d709a023b6fa9ac560413e4d6520fbe11722c66d2143431a7"
+    },
+    "portfolio-manager": {
+      "source": "tradermonty/claude-trading-skills",
+      "sourceType": "github",
+      "skillPath": "skills/portfolio-manager/SKILL.md",
+      "computedHash": "8c02a42e969f56c66438305a812c14a96815efc452886df5cc0f489286bfd765"
+    },
+    "sector-analyst": {
+      "source": "tradermonty/claude-trading-skills",
+      "sourceType": "github",
+      "skillPath": "skills/sector-analyst/SKILL.md",
+      "computedHash": "eccd888363e3d6186c47a4a78823872bd49bf759a5dd0e49853f36a097fed76b"
+    },
+    "technical-analyst": {
+      "source": "tradermonty/claude-trading-skills",
+      "sourceType": "github",
+      "skillPath": "skills/technical-analyst/SKILL.md",
+      "computedHash": "fa230256beb5d8bd26838c6e5b3a8328b833e87317e190ea18a661ab1fef1781"
+    },
+    "us-stock-analysis": {
+      "source": "tradermonty/claude-trading-skills",
+      "sourceType": "github",
+      "skillPath": "skills/us-stock-analysis/SKILL.md",
+      "computedHash": "e0e8251390c2230bbdd1f3354cd113bcfb0bb736e6f4d6132356676914235df3"
+    }
+  }
+}

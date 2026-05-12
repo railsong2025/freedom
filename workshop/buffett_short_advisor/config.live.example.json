@@ -1,0 +1,11 @@
+{
+  "project_root": "/Users/newsong/Desktop/AIstudio/Freedom_Multi_EN",
+  "base_short_path": "base_short.md",
+  "timezone": "Asia/Shanghai",
+  "primary_market": "US equities",
+  "report_slug": "美股短线议",
+  "prompt_language": "Chinese",
+  "execute_command": "codex exec --cd /Users/newsong/Desktop/AIstudio/Freedom_Multi_EN --prompt-file {prompt_file}",
+  "write_system_log": true,
+  "system_log_path": "workshop/buffett_short_advisor/system_log.md"
+}

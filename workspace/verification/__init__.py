@@ -1,0 +1,1 @@
+"""Hades Verification Division — P&L audit, compliance, stress testing."""

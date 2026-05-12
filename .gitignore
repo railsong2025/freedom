@@ -1,0 +1,29 @@
+.DS_Store
+
+# Python/runtime caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local logs and process files
+*.log
+*.pid
+
+# Local/private configs
+.env
+.env.*
+!.env.example
+.claude/settings.local.json
+**/config.live.json
+
+# Runtime outputs
+workspace/**/runs/
+workshop/**/runs/
+
+# Legacy/local decision DB files
+workspace/journal/*.sqlite3
+workspace/journal/*.sqlite3-*
+report/**/db_record.json

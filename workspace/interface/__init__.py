@@ -1,0 +1,1 @@
+"""Shared data models, constants, and contracts for the Buffett Investment Team."""

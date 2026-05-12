@@ -1,0 +1,11 @@
+{
+  "project_root": "/Users/newsong/Desktop/AIstudio/Freedom_Multi_EN",
+  "base_short_path": "workspace/buffett_a_short_advisor/base_short_A.md",
+  "timezone": "Asia/Shanghai",
+  "primary_market": "China A-shares",
+  "report_slug": "A股短线议",
+  "prompt_language": "Chinese",
+  "execute_command": "/usr/local/bin/codex --search exec --cd /Users/newsong/Desktop/AIstudio/Freedom_Multi_EN --skip-git-repo-check -",
+  "write_system_log": true,
+  "system_log_path": "workspace/buffett_a_short_advisor/system_log.md"
+}

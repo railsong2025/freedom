@@ -1,0 +1,1 @@
+"""Poseidon Research Division — portfolio tracking, position sizing, R/R, sector scoring."""
