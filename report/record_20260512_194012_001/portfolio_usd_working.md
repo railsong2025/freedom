@@ -1,6 +1,8 @@
-# Buffett 短线交易基础记录
+# Buffett USD working portfolio
 
-## 初始持仓
+Derived only for Python post-trade projection from root `base_short.md` plus financeBusiness HKD/USD conversion at 2026-05-12 19:41:21 Beijing time.
+
+## 当前持仓
 
 - 腾讯控股：400 股，成本 549 港元
 - 超威半导体：11股，成本 453.12美元
@@ -14,4 +16,7 @@
 - 标普 500 ETF：3 股，成本 679.31 美元
 - 台积电：6股，成本 416.71美元
 - 西部数据：10股，成本515.27美元
-- 剩余可用资金7700 港元，可投资港股或美股
+
+## 可用资金
+
+- 983.29 美元

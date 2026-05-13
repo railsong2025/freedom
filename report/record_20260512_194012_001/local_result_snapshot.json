@@ -1,0 +1,85 @@
+{
+  "task_key": "portfolio_review:us_equity_portfolio:20260512:ai_chain_swing",
+  "task_type": "portfolio_review",
+  "subject": "us_equity_portfolio",
+  "market": "US equities",
+  "task_folder": "report/record_20260512_194012_001",
+  "created_at_beijing": "2026-05-12T19:40:12+08:00",
+  "execution_deadline_beijing": "2026-05-13T00:00:00+08:00",
+  "source_doc_ids_json": [
+    "report/record_20260512_194012_001/00_metadata.md",
+    "report/record_20260512_194012_001/01_buffett_review.md",
+    "report/record_20260512_194012_001/02_buffett_plan.md",
+    "report/record_20260512_194012_001/03_zeus_intelligence.md",
+    "report/record_20260512_194012_001/04_poseidon_research.md",
+    "report/record_20260512_194012_001/05_hades_verification.md",
+    "report/record_20260512_194012_001/06_roundtable.md",
+    "report/record_20260512_194012_001/07_final_decision.md"
+  ],
+  "final_action": "SELL 5 ANET at a 136.00 USD limit and BUY 2 VRT at a 365.00 USD limit before 2026-05-13 00:00 Beijing time; no other US trades.",
+  "thesis": "The portfolio already has heavy AI semiconductor and memory exposure, while ANET is the weakest AI-chain holding and VRT provides a missing data-center power/cooling exposure with confirmed momentum. The action rotates a weak small position into a cash-limited VRT starter with defined downside.",
+  "roundtable_summary": "Buffett, Zeus, Poseidon, and Hades agreed not to chase MU, WDC, STX, AMD, SMH, SOXX, or QQQ because existing exposure is already high. They approved selling ANET as a weak relative-strength holding and buying only 2 VRT shares as a small starter. Hades conditionally approved the trade despite small-position compliance warnings because the size reduces risk rather than amplifying it.",
+  "final_decision_english": "Execute two current-session orders only: sell 5 ANET shares at a 136.00 USD limit or better, paying a 5 USD fee; buy 2 VRT shares at a 365.00 USD limit or better, paying a 5 USD fee, with a 349.00 hard stop, 399.00 first target, and 420.00 second target. Do not chase either order outside the limit prices.",
+  "recommendation_json": {
+    "actions": [
+      {
+        "symbol": "ANET",
+        "side": "SELL",
+        "shares": 5,
+        "limit_price": 136.0,
+        "fee_usd": 5.0,
+        "fee_pct": 0.735,
+        "cash_impact_usd": 675.0,
+        "rationale": "Exit weak relative-strength AI networking holding.",
+        "invalidation": "Do not sell below 136.00 in this session; reassess if the stock reclaims 142.80 with volume."
+      },
+      {
+        "symbol": "VRT",
+        "side": "BUY",
+        "shares": 2,
+        "limit_price": 365.0,
+        "fee_usd": 5.0,
+        "fee_pct": 0.685,
+        "cash_impact_usd": -735.0,
+        "stop": 349.0,
+        "target_1": 399.0,
+        "target_2": 420.0,
+        "rationale": "Open a small data-center power/cooling starter position with defined downside.",
+        "invalidation": "Do not raise the limit; stop at 349.00 if filled."
+      }
+    ],
+    "no_other_trades": true,
+    "sector_rating": {
+      "memory_HBM_storage": "tactical_overweight",
+      "AI_infrastructure_semiconductors": "tactical_overweight",
+      "data_center_power_cooling": "tactical_overweight"
+    },
+    "veto_status": {
+      "VRT": "small_starter_approved",
+      "ANET": "sell_approved",
+      "MU_WDC_STX_AMD_SMH_SOXX_QQQ": "no_chase"
+    }
+  },
+  "expected_outcome_json": {
+    "pre_trade_cash_usd": 983.29,
+    "post_trade_cash_usd": 923.29,
+    "realized_pnl_usd": -38.9,
+    "remaining_unrealized_pnl_usd": -1129.26,
+    "realized_plus_unrealized_pnl_usd": -1168.16,
+    "post_trade_equity_usd": 39965.05,
+    "risk_budget": {
+      "VRT_stop": 349.0,
+      "estimated_risk_usd": 42.2,
+      "estimated_risk_pct_of_equity": 0.11
+    },
+    "review_trigger": "Restart analysis on 2026-05-13 22:45 Beijing time or immediately if VRT trades below 349.00 after entry."
+  },
+  "actual_result_json": null,
+  "review_summary": "No compliant prior local report was available. Current review found total US unrealized P&L of -1156.01 USD and heavy AI-chain exposure, leading to a rotation rather than broad new buying.",
+  "source_links": [
+    "https://www.intc.com/news-events/press-releases/detail/1767/intel-reports-first-quarter-2026-financial-results",
+    "https://www.goldmansachs.com/insights/articles/tracking-trillions-the-assumptions-shaping-scale-of-the-ai-build-out",
+    "https://www.whitehouse.gov/presidential-actions/2026/01/adjusting-imports-of-semiconductors-semiconductor-manufacturing-equipment-and-their-derivative-products-into-the-united-states/"
+  ],
+  "sqlite_write_status": "skipped_by_disabled_policy"
+}

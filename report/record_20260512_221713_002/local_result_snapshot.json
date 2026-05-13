@@ -1,0 +1,94 @@
+{
+  "task_key": "portfolio_review:3de533b90a30",
+  "task_type": "portfolio_review",
+  "subject": "us_equity_portfolio",
+  "market": "US equities",
+  "task_folder": "report/record_20260512_221713_002",
+  "created_at_beijing": "2026-05-12T22:17:13+08:00",
+  "execution_deadline_beijing": "2026-05-13T00:00:00+08:00",
+  "source_doc_ids_json": [
+    "report/record_20260512_221713_002/00_metadata.md",
+    "report/record_20260512_221713_002/01_buffett_review.md",
+    "report/record_20260512_221713_002/02_buffett_plan.md",
+    "report/record_20260512_221713_002/03_zeus_intelligence.md",
+    "report/record_20260512_221713_002/04_poseidon_research.md",
+    "report/record_20260512_221713_002/05_hades_verification.md",
+    "report/record_20260512_221713_002/06_roundtable.md",
+    "report/record_20260512_221713_002/07_final_decision.md"
+  ],
+  "final_action": "SELL 5 ANET at a 139.50 USD limit or better and BUY 2 VRT at a 350.00 USD limit or better before 2026-05-13 00:00 Beijing time; no other US trades.",
+  "thesis": "The previous ANET-to-VRT rotation remains directionally valid, but the intraday tape changed the execution prices. ANET remains the weakest AI-networking holding after its post-earnings decline, while VRT is the missing data-center power/cooling exposure. The trade only works as a low-limit, small starter rotation with a hard stop, not as a chase.",
+  "roundtable_summary": "The roundtable agreed that the prior 365 VRT limit no longer has enough margin of safety after the intraday reversal. It approved selling ANET only at 139.50 or better and buying VRT only at 350.00 or better. Hades conditionally approved the trade despite the VRT position being below the normal 5% initial range because the small size is cash- and risk-constrained.",
+  "roundtable_english": "Buffett, Zeus, Poseidon, and Hades concluded that AI infrastructure remains the right sector, but broad semiconductor and memory names are too crowded after a sharp run. The approved action is a disciplined rotation from weak ANET into a small VRT pullback starter, with no chase on either leg.",
+  "final_decision_english": "Submit two current-session limit orders only: sell 5 ANET shares at 139.50 USD or better with a 5 USD fee, and buy 2 VRT shares at 350.00 USD or better with a 5 USD fee. If VRT fills, use a 338.00 hard stop, a 372.00 first target, and a 399.00 second target. Do not raise the buy limit or lower the sell limit.",
+  "recommendation_json": {
+    "actions": [
+      {
+        "symbol": "ANET",
+        "side": "SELL",
+        "shares": 5,
+        "limit_price": 139.5,
+        "fee_usd": 5.0,
+        "fee_pct": 0.717,
+        "cash_impact_usd": 692.5,
+        "rationale": "Exit the weakest AI-networking holding on a rebound and free cash for a better AI infrastructure expression.",
+        "invalidation": "Do not sell below 139.50 in this session; reassess if ANET reclaims 142.80 with volume."
+      },
+      {
+        "symbol": "VRT",
+        "side": "BUY",
+        "shares": 2,
+        "limit_price": 350.0,
+        "fee_usd": 5.0,
+        "fee_pct": 0.714,
+        "cash_impact_usd": -705.0,
+        "stop": 338.0,
+        "target_1": 372.0,
+        "target_2": 399.0,
+        "rationale": "Open a small data-center power/cooling starter only on a pullback with defined downside.",
+        "invalidation": "Do not raise the limit; stop at 338.00 if filled."
+      }
+    ],
+    "no_other_trades": true,
+    "sector_rating": {
+      "memory_HBM_storage": "neutral_watch_after_crowded_pullback",
+      "AI_infrastructure_semiconductors": "neutral_watch_after_intraday_reversal",
+      "data_center_power_cooling": "neutral_watch_with_small_starter_allowed"
+    },
+    "stock_tiers": {
+      "tactical_candidates": ["VRT", "NVDA", "MU"],
+      "watchlist_names": ["ANET", "AMD", "WDC"],
+      "avoid_or_no_add": ["INTC", "FLEX", "STX", "SMH", "SOXX", "QQQ"]
+    },
+    "veto_status": {
+      "VRT": "small_starter_conditionally_approved",
+      "ANET": "sell_approved_at_limit_or_better",
+      "MU_WDC_STX_AMD_SMH_SOXX_QQQ": "no_chase",
+      "MSFT": "hold_no_averaging_down"
+    }
+  },
+  "expected_outcome_json": {
+    "pre_trade_cash_usd": 983.29,
+    "post_trade_cash_usd": 970.79,
+    "realized_pnl_usd": -21.4,
+    "remaining_unrealized_pnl_usd": -2032.89,
+    "realized_plus_unrealized_pnl_usd": -2054.29,
+    "post_trade_equity_usd": 39078.92,
+    "risk_budget": {
+      "VRT_stop": 338.0,
+      "estimated_risk_usd": 34.2,
+      "estimated_risk_pct_of_equity": 0.09
+    },
+    "review_trigger": "Restart analysis on 2026-05-13 22:45 Beijing time or immediately if VRT trades below 338.00 after entry."
+  },
+  "actual_result_json": null,
+  "review_summary": "The previous same-task record recommended selling ANET at 136 and buying VRT at 365. Current financeBusiness data invalidated those exact prices: ANET rebounded to 139.68 while VRT pulled back to 358.845. The new decision keeps the rotation concept but resets the execution discipline.",
+  "source_links": [
+    "https://www.intc.com/news-events/press-releases/detail/1767/intel-reports-first-quarter-2026-financial-results",
+    "https://www.arista.com/en/company/news/press-release/24017-pr-20260505",
+    "https://investors.vertiv.com/overview/default.aspx",
+    "https://www.goldmansachs.com/insights/articles/why-ai-companies-may-invest-more-than-500-billion-in-2026",
+    "https://www.whitehouse.gov/fact-sheets/2026/01/fact-sheet-president-donald-j-trump-takes-action-on-certain-advanced-computing-chips-to-protect-americas-economic-and-national-security/"
+  ],
+  "sqlite_write_status": "skipped_by_disabled_policy"
+}

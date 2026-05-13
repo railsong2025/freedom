@@ -148,11 +148,15 @@ TICKER_SECTOR_MAP: dict[str, str] = {
     "TSM": "semiconductor",
     "ANET": "semiconductor",
     "INTC": "semiconductor",
+    "AVGO": "semiconductor",
+    "ASML": "semiconductor",
+    "AMAT": "semiconductor",
     "PLAB": "semiconductor",
     "MRVL": "semiconductor",
     # Technology
     "MSFT": "technology",
     "FLEX": "technology",
+    "VRT": "industrial",
     "JBL": "technology",
     "CLS": "technology",
     # Communication services
@@ -224,6 +228,12 @@ CHINESE_NAME_TO_TICKER: dict[str, str] = {
     "特斯拉": "TSLA",
     "超威半导体": "AMD",
     "台积电": "TSM",
+    "西部数据": "WDC",
+    "希捷科技": "STX",
+    "维谛技术": "VRT",
+    "博通": "AVGO",
+    "阿斯麦": "ASML",
+    "应用材料": "AMAT",
     "迈威尔科技": "MRVL",
     "迈威尔": "MRVL",
 }
